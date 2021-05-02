@@ -1,0 +1,167 @@
+tut1:intro to react
+tut2:prerequisite
+tut3:install react & some extenstion like babel
+tut4: hello world with two different way and folder structure
+
+
+1. remove app and strict in index.js
+
+2. in app.js you can also put hello world
+
+folder structure ,then use of babel ,then remove require and use import export  
+
+tut5: jsx
+
+render text in 3 ways 
+
+1. traditional react
+2. babel
+3. normal javascript
+tut6: render multiple element inside dom
+
+
+USING ARRY
+
+tut7: react fragment
+REACT.FRAGMENTS
+
+
+tut8: CHALLANGE 1 top5 netflix series render
+COMPLETE
+
+tut9: jsx expression
+
+
+tut10: es6 template literal in jsx
+
+
+tut 11: proj 2 display current date and time 
+done
+
+tut 13: html vs jsx 
+
+html attribute and jsx attribute
+
+* tutorial 14:- css styling and import styling in css
+
+* tutorial 15:-using google font in css and class vs className
+
+* tutorial 16:-internal css and inline css in react
+
+* tutorial 17:-Mini project create simple greeting website
+
+* tutorial 18:-React Components 
+
+* tutorial 19:-Rewrite our Project in React Components
+
+* tutorial 20:-ES6 Import Export Module in React
+
+* tutorial 21:-Create Simple Calculator App in React
+
+* tutorial 22:-Props In react Js
+
+
+* 🔴 tutorial 23:-Array In React Js 
+
+
+* 🔴 tutorial 24:-React Js Netflix App 
+
+
+* 🔴 tutorial 25:-React Js Developer Tools And Debugging And Error Handling
+
+
+* 🔴 tutorial 26:-If Else
+
+
+* 🔴 tutorial 27:- Conditional Statement
+
+
+* 🔴 tutorial 28:-Slot Machine Game
+
+
+* 🔴 tutorial 29:-Emojie In React
+
+* 🔴 tutorial 30:-Array Destructing
+
+
+* 🔴 tutorial 31:- Hooks in React JS in Hindi - useState in Hook in React JS 
+
+
+* 🔴 tutorial 32:- React Hooks Challenge #6- Get Time on Refreshing and Clicking Button using useState Hook
+
+
+* 🔴 tutorial 33:-Create a Digital Clock using React JS in Hindi - React Mini Project #2
+
+
+* 🔴 tutorial 34:- Handling Events in ReactJS in Hindi in 2020
+
+
+* 🔴 tutorial 35:-Forms in React JS in Hindi - React Controlled Vs Uncontrolled Component 
+
+
+* 🔴 tutorial 36:-Login Form Submit in React Js in Hindi in 2020 
+
+* 🔴 tutorial 37:- Handling Complex Multiple Input Form States in React JS 
+
+* 🔴 tutorial 38:- React Login Form Challenge in React 
+
+* 🔴 tutorial 39:- What does '...' three dots do in ReactJS - Spread Operator in ReactJS 
+
+* 🔴 tutorial 40:- How I turn 100 lines of code in just 2 lines to Complete Our Login Form in React
+
+* 🔴 tutorial 41:-Building a Todo List App Project in ReactJS from Scratch 
+
+* 🔴 tutorial 42:React Challenge #8- Incrementing and Decrementing the State Variable on Button clicked in React JS
+
+* 🔴 tutorial 43:How to use Material UI Icons in React App 
+
+* 🔴 tutorial 44:-The Best UI Framework for ReactJS - Getting Started with Material UI 
+
+* 🔴 tutorial 45:-NPM (Node Package Manager) in 10 Minutes with One Mini Project 
+
+* 🔴 tutorial 46:-React Project using Material UI Free Code- Create ToDo List App in React
+
+* 🔴 tutorial 47:-How to Run React App in VS Code inbuilt Terminal 
+
+* 🔴 tutorial 48:-How to Install and Use Bootstrap 4 in React JS 
+
+* 🔴 tutorial 49:-React Bootstrap Autocomplete Extension in VS Code 
+
+* 🔴 tutorial 50:-I tried to create React WebPage in just 1 MINUTE Only - React Bootstrap 4 Challenge 
+
+* 🔴 tutorial 51:-Google Keep App clone with ReactJS in Hindi - React Project 
+
+* 🔴 tutorial 52:-Context API in React JS 
+
+* 🔴 tutorial 53:-useContext Hook in React - How useContext Hook Works in ReactJS 
+
+* 🔴 tutorial 54:-useEffect Hook in React JS 
+
+* 🔴 tutorial 55:-React Hook Challenge #7- Changing the Title value of Website on Button Click #54
+* 🔴 tutorial 56:-React API Call to Get Pokemon JSON Data using Axios and useEffect in ReactJS  
+
+* 🔴 tutorial 57:-React Router 🔴 tutorial in Hindi - React Router Dom 
+
+* 🔴 tutorial 58:-Create React NAVBAR _ MENU  using React Router in ReactJS
+
+* 🔴 tutorial 59:-React Route Render Method - Difference between Render and Component Prop on React Router
+
+* 🔴 tutorial 60:-useParams Hooks in React Router in Hindi in 2020
+
+* 🔴 tutorial 61:-useLocation Hook in React Router  
+
+* 🔴 tutorial 62:-useHistory Hook in React Router 
+
+* 🔴 tutorial 63:-Live Search Filter using Hooks & Router in React JS
+
+* 🔴 tutorial 64:- Create React 404 Error Page Not Found using React Router 
+
+* 🔴 tutorial 65:-Redirect in React Router - 404 Error Page Redirect to Homepage or Custom Page in React
+
+* 🔴 tutorial 66:-77.How to Install and Use Bootstrap 5 in React JS
+
+* 🔴 tutorial 67:🔴 Complete Responsive Animated Website using React JS 
+
+* 🔴 tutorial 68:-How To Host React JS Website Live for Free using GitHub
+
+* 🔴 tutorial 69:- Create ReactJS Website with SASS - Install SASS in React Project 

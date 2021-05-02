@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.menu {
+  background-color: #34495e;
+  padding: 5px 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  color: #fff;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+a.active-class {
+  color: #2980b9;
+  font-size: 1rem;
+}
+
+.searchbar {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.searchbar input {
+  margin: 30px 0;
+  padding: 14px 10px;
+  border-radius: 12px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #000;
+  font-size: 1rem;
+}
+
+input:focus {
+  box-shadow: 1px 9px 16px -5px rgba(191, 191, 191, 1);
+}
+.gallary {
+  display: grid;
+  margin-left: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  justify-content: space-between;
+}
+
+img {
+  max-width: 400px;
+  max-height: 400px;
+  transition: all 0.3s ease;
+  margin-bottom: 40px;
+}
+img:hover {
+  box-shadow: 7px -2px 56px 0px rgba(196, 196, 196, 1);
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}

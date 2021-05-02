@@ -1,0 +1,4 @@
+1. convert any data to json and stored into another file
+2. read another file which we are insert data as a string
+3. again convert back to js object 
+4. print that data

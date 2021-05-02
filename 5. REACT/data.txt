@@ -1,0 +1,183 @@
+  {{!-- card 4
+
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="/img/man1.png" alt="team-section">
+                        </div>
+                        <div class="details">
+                            <div class="name">Utsav Khalas</div>
+                            <div class="job">MERN Developer</div>
+                            {{!-- <div class="media-icons">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </div> --}}
+
+                        </div>
+                    </div>
+                </div>
+
+                {{!-- card 5 --}}
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="/img/man1.png" alt="team-section">
+                        </div>
+                        <div class="details">
+                            <div class="name">Priyank Mehta</div>
+                            <div class="job">Django Developer</div>
+                            {{!-- <div class="media-icons">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </div> --}}
+
+                        </div>
+                    </div>
+                </div>
+                {{!-- card 6 --}}
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="/img/man1.png" alt="team-section">
+                        </div>
+                        <div class="details">
+                            <div class="name">Anjali Patel</div>
+                            <div class="job">Web Designer,UI UX Designer</div>
+                            {{!-- <div class="media-icons">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </div> --}}
+
+                        </div>
+                    </div>
+                </div>
+                {{!-- card 7 --}}
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="/img/man1.png" alt="team-section">
+                        </div>
+                        <div class="details">
+                            <div class="name">Wani Karishma</div>
+                            <div class="job">UIUX Designer, Django Developer</div>
+                            {{!-- <div class="media-icons">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </div> --}}
+
+                        </div>
+                    </div>
+                </div>
+                {{!-- card 8 --}}
+
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="/img/man1.png" alt="team-section">
+                        </div>
+                        <div class="details">
+                            <div class="name">Rinkal Makwana</div>
+                            <div class="job">MERN, MEAN Developer</div>
+                            {{!-- <div class="media-icons">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </div> --}}
+
+                        </div>
+                    </div>
+                </div>
+
+                {{!-- card 9 --}}
+
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="/img/man1.png" alt="team-section">
+                        </div>
+                        <div class="details">
+                            <div class="name">Krupa Panchal</div>
+                            <div class="job">MERN,Laravel Developer</div>
+                            {{!-- <div class="media-icons">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </div> --}}
+
+                        </div>
+                    </div>
+                </div>
+
+                {{!-- card 10 --}}
+
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="/img/man1.png" alt="team-section">
+                        </div>
+                        <div class="details">
+                            <div class="name">Nimisha Badiyani</div>
+                            <div class="job">UIUX Designer,MERN Developer</div>
+                            {{!-- <div class="media-icons">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </div> --}}
+
+                        </div>
+                    </div>
+                </div>
+
+                {{!-- card 11 --}}
+
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="/img/man1.png" alt="team-section">
+                        </div>
+                        <div class="details">
+                            <div class="name">Aashis Sharma</div>
+                            <div class="job">MERN,MEAN Developer</div>
+                            {{!-- <div class="media-icons">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </div> --}}
+
+                        </div>
+                    </div>
+                </div>
+
+                {{!-- card 12 --}}
+
+                <div class="card">
+                    <div class="content">
+                        <div class="img">
+                            <img src="/img/man1.png" alt="team-section">
+                        </div>
+                        <div class="details">
+                            <div class="name">Meet Raval</div>
+                            <div class="job">Cyber Security Expert</div>
+                            {{!-- <div class="media-icons">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </div> --}}
+
+                        </div>
+                    </div>
+                </div>
+                --}}

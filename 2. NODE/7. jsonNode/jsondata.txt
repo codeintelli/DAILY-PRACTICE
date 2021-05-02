@@ -1,0 +1,1 @@
+{"name":"shiva","age":22,"collage":"GMCA","Semester":4,"Skills":{"json":true,"node":true,"php":false,"react":true,"angular":true,"mysql":true,"uiux":true},"job":false}

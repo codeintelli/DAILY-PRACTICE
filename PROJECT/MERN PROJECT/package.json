@@ -1,0 +1,37 @@
+{
+  "name": "mern-project",
+  "version": "1.0.0",
+  "description": "mern project data here ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ITVMH/DAILY-PRACTICE.git"
+  },
+  "keywords": [
+    "mern",
+    "project",
+    "monogdb",
+    "node",
+    "express",
+    "react",
+    "js",
+    "demo",
+    "tranning"
+  ],
+  "author": "mahadev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ITVMH/DAILY-PRACTICE/issues"
+  },
+  "homepage": "https://github.com/ITVMH/DAILY-PRACTICE#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "chalk": "^4.1.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.7"
+  }
+}

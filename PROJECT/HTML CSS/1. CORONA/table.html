@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body onload="fetch()">
+    <div class="text-align-center text-css">Covid-19 World Updates</div>
+    <div class="table-content">
+      <table class="text-align-center center" id="customers">
+        <tr>
+          <th scope="" style="text-align: center">Country List</th>
+          <th scope="">Total Confirmed</th>
+          <th scope="">Total Recovered</th>
+          <th scope="">Total Death</th>
+          <th scope="">New Confirmed</th>
+          <th scope="">New Recovered</th>
+          <th scope="">New Death</th>
+        </tr>
+        <!-- <tr>
+        <td style="color: #2e86de; font-weight: bold">India</td>
+        <td style="color: #8e44ad; font-weight: bold">2342342</td>
+        <td style="color: #1dd1a1; font-weight: bold">22323</td>
+        <td style="color: #e74c3c; font-weight: bold">232432</td>
+        <td style="color: #f39c12; font-weight: bold">3242</td>
+        <td style="color: #27ae60; font-weight: bold">23424</td>
+        <td style="color: #ee5253; font-weight: bold">32424324</td>
+      </tr> -->
+      </table>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      function fetch() {
+        $.get("https://api.covid19api.com/summary", function (data) {
+          var tbval = document.getElementById("customers");
+          for (var i = 1; i < data["Countries"].length; i++) {
+            var x = tbval.insertRow();
+            x.insertCell(0);
+            tbval.rows[i].cells[0].innerHTML =
+              data["Countries"][i - 1]["Country"];
+            tbval.rows[i].cells[0].style.color = "#2e86de";
+
+            x.insertCell(1);
+            tbval.rows[i].cells[1].innerHTML =
+              data["Countries"][i - 1]["TotalConfirmed"];
+            tbval.rows[i].cells[1].style.color = "#8e44ad";
+
+            x.insertCell(2);
+            tbval.rows[i].cells[2].innerHTML =
+              data["Countries"][i - 1]["TotalRecovered"];
+            tbval.rows[i].cells[2].style.color = "#1dd1a1";
+
+            x.insertCell(3);
+            tbval.rows[i].cells[3].innerHTML =
+              data["Countries"][i - 1]["TotalDeaths"];
+            tbval.rows[i].cells[3].style.color = "#e74c3c";
+
+            x.insertCell(4);
+            tbval.rows[i].cells[4].innerHTML =
+              data["Countries"][i - 1]["NewConfirmed"];
+            tbval.rows[i].cells[4].style.color = "#f39c12";
+
+            x.insertCell(5);
+            tbval.rows[i].cells[5].innerHTML =
+              data["Countries"][i - 1]["NewRecovered"];
+            tbval.rows[i].cells[5].style.color = "#27ae60";
+
+            x.insertCell(6);
+            tbval.rows[i].cells[6].innerHTML =
+              data["Countries"][i - 1]["NewDeaths"];
+            tbval.rows[i].cells[6].style.color = "#ee5253";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

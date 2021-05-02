@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+body {
+  background: #222f3e;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  height: 70vh;
+  background: #718093;
+  border-radius: 5px;
+  font-family: "dancing-script", cursive;
+  overflow: hidden;
+  color: #797d7f;
+  letter-spacing: 0.5px;
+  display: grid;
+  place-items: center;
+}
+
+.inner {
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  opacity: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  height: 70%;
+  bottom: 0%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+  font-size: 1.3rem;
+}
+
+.number::before {
+  content: "";
+  position: absolute;
+  top: -130px;
+  right: -30px;
+  width: 90px;
+  height: 200px;
+  background: #9c88ff;
+  opacity: 0.5;
+  transform: rotate(-45deg);
+  z-index: 1;
+  box-shadow: 0, 0, 0.7rem rgba(0, 0, 0, 0.5);
+}
+.number {
+  position: absolute;
+  margin: 0;
+  top: 15px;
+  right: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.number img {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: -25px;
+  top: -7px;
+  cursor: pointer;
+  z-index: 99;
+  animation: rot 1s linear;
+}
+.number:hover img {
+  animation: rot 1s linear;
+}
+@keyframes rot {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.start-quote {
+  font-size: 80px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #95a5a6;
+  opacity: 0.2;
+}
+.quote {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.author {
+  padding-right: 20px;
+  padding-left: 20px;
+  float: right;
+}
+.button {
+}
+.button {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #487eb0;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 16px;
+}
+/* p {
+  margin-block-end: 0em; */
+}

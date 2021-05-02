@@ -1,0 +1,19 @@
+[ ] Prerequisite To Learn MERN Stack
+    [ $ ] MONGODB
+    [ $ ] EXPRESS
+    [ $ ] REACT
+        [ @ ]  HTML/CSS/JS 
+        [ @ ]  BOOTSTRAP/TAILWIND 
+    [ $ ] NODE
+[ ] Overview Of this Project
+[ ] create server
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]

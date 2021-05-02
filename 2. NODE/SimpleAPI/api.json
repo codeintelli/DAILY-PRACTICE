@@ -1,0 +1,234 @@
+[
+{
+  "name": "Akash Patel",
+  "username": "akashpatel",
+  "age": 22,
+  "collage": "GMCA",
+  "Semester": 4,
+  "Skills": {
+    "android": true,
+    "node": true,
+   " php": false,
+    "react": true,
+    "angular": true,
+    "java": true,
+    "python": true,
+    "uiux": true
+  },
+  "job": false
+},
+{
+  "name": "Anjali Patel",
+  "username": "anjalipatel",
+  "age": 22,
+  "collage": "GMCA",
+  "Semester": 4,
+  "Skills": {
+    "android": true,
+    "node": true,
+   " php": false,
+    "react": true,
+    "angular": true,
+    "java": true,
+    "python": true,
+    "uiux": true
+  },
+  "job": false
+},
+{
+  "name": "Karishma Wani",
+  "username": "kwani",
+  "age": 22,
+  "collage": "GMCA",
+  "Semester": 4,
+  "Skills": {
+    "android": true,
+    "node": true,
+   " php": false,
+    "react": true,
+    "angular": true,
+    "java": true,
+    "python": true,
+    "uiux": true
+  },
+  "job": false
+},
+{
+  "name": "Panchal Krupa",
+  "username": "krupap23",
+  "age": 22,
+  "collage": "GMCA",
+  "Semester": 4,
+  "Skills": {
+    "android": true,
+    "node": true,
+   " php": false,
+    "react": true,
+    "angular": true,
+    "java": true,
+    "python": true,
+    "uiux": true
+  },
+  "job": false
+},
+{
+  "name": "Mahta Priyank",
+  "username": "priyankmehta",
+  "age": 22,
+  "collage": "GMCA",
+  "Semester": 4,
+  "Skills": {
+    "android": true,
+    "node": true,
+   " php": false,
+    "react": true,
+    "angular": true,
+    "java": true,
+    "python": true,
+    "uiux": true
+  },
+  "job": false
+},
+{
+  "name": "khalas utsav",
+  "username": "khalasutsav",
+  "age": 22,
+  "collage": "GMCA",
+  "Semester": 4,
+  "Skills": {
+    "android": true,
+    "node": true,
+   " php": false,
+    "react": true,
+    "angular": true,
+    "java": true,
+    "python": true,
+    "uiux": true
+  },
+  "job": false
+},
+{
+  "name": "Ashis Sharma",
+  "username": "as2020",
+  "age": 22,
+  "collage": "GMCA",
+  "Semester": 4,
+  "Skills": {
+    "android": true,
+    "node": true,
+   " php": false,
+    "react": true,
+    "angular": true,
+    "java": true,
+    "python": true,
+    "uiux": true
+  },
+  "job": false
+},
+{
+  "name": "Rinkal Makvana",
+  "username": "rinkym",
+  "age": 22,
+  "collage": "GMCA",
+  "Semester": 4,
+  "Skills": {
+    "android": true,
+    "node": true,
+   " php": false,
+    "react": true,
+    "angular": true,
+    "java": true,
+    "python": true,
+    "uiux": true
+  },
+  "job": false
+},
+{
+  "name": "Aarti Bhadani ",
+  "username": "ap20202",
+  "age": 22,
+  "collage": "GMCA",
+  "Semester": 4,
+  "Skills": {
+    "android": true,
+    "node": true,
+   " php": false,
+    "react": true,
+    "angular": true,
+    "java": true,
+    "python": true,
+    "uiux": true
+  },
+  "job": false
+},
+{
+  "name": "Savaliya Bhavisha",
+  "username": "Bhavu",
+  "age": 22,
+  "collage": "GMCA",
+  "Semester": 4,
+  "Skills": {
+    "android": true,
+    "node": true,
+   " php": false,
+    "react": true,
+    "angular": true,
+    "java": true,
+    "python": true,
+    "uiux": true
+  },
+  "job": false
+},
+{
+  "name": "Komal Saravaiya",
+  "username": "komalsarvaiya",
+  "age": 22,
+  "collage": "GMCA",
+  "Semester": 4,
+  "Skills": {
+    "android": true,
+    "node": true,
+   " php": false,
+    "react": true,
+    "angular": true,
+    "java": true,
+    "python": true,
+    "uiux": true
+  },
+  "job": false
+},
+{
+  "name": "Rahul Mehta",
+  "username": "Rahul",
+  "age": 22,
+  "collage": "GMCA",
+  "Semester": 4,
+  "Skills": {
+    "android": true,
+    "node": true,
+   " php": false,
+    "react": true,
+    "angular": true,
+    "java": true,
+    "python": true,
+    "uiux": true
+  },
+  "job": false
+},
+{
+  "name": "shiva",
+  "age": 22,
+  "collage": "GMCA",
+  "Semester": 4,
+  "Skills": {
+    "json": true,
+    "node": true,
+   " php": false,
+    "react": true,
+    "angular": true,
+    "mysql": true,
+    "uiux": true
+  },
+  "job": false
+}
+]
