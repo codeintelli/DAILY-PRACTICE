@@ -1,0 +1,19 @@
+[ + ] Prerequisite To Learn MERN Stack
+    [ + ] MONGODB
+    [ + ] EXPRESS
+    [ + ] REACT
+        [ + ]  HTML/CSS/JS 
+        [ + ]  BOOTSTRAP/TAILWIND 
+    [ + ] NODE
+[ + ] Overview Of this Project
+[ + ] create server
+[ + ] explain middleware and explain how to use middleware
+[ + ] MONGODB ATLAS INTRO AND USING MONGO DB ATLAS IN EXPRESS
+[ + ] using dotenv and explain how to use dotenv
+[ + ] creating schema and model
+[ + ] create routes and show how can we add data using req.body
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
