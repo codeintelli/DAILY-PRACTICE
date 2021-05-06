@@ -1,0 +1,11 @@
+{
+  "name": "facebook-ui",
+  "version": "1.0.0",
+  "description": "facebook ui using tailwind css ",
+  "main": "index.js",
+  "author": "codeintelli",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx tailwindcss-cli@latest build tailwind.css -c tailwind.config.js -o tailwind.css"
+  }
+}

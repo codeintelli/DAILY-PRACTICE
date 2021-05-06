@@ -1,0 +1,54 @@
+$$ PART 1 
+[ + ] Prerequisite To Learn MERN Stack
+    [ + ] MONGODB
+    [ + ] EXPRESS
+    [ + ] REACT
+        [ + ]  HTML/CSS/JS 
+        [ + ]  BOOTSTRAP/TAILWIND 
+    [ + ] NODE
+[ + ] Overview Of this Project
+[ + ] create server
+[ + ] explain middleware and explain how to use middleware
+[ + ] MONGODB ATLAS INTRO AND USING MONGO DB ATLAS IN EXPRESS
+[ + ] using dotenv and explain how to use dotenv
+[ + ] creating schema and model
+[ + ] create routes and show how can we add data using req.body
+[ + ] store user data in online database (promise based)
+[ + ] post data using async await
+[ + ] create login route with form validation
+[ + ] secure password using bcrypt 
+[ + ] check hash password and email (login functionality)
+[ + ] user authentication using jwt and store token in database
+[ + ] store jwt in user cookie
+
+
+$$ PART 2
+[ + ] lets start frontend download react
+[ + ] creating reponsive navbar
+[ + ] open new page without reloading the page
+[ + ] add css in our mern project
+[ - ] create registration page ui
+[ - ] create login page ui
+[ - ] create contact page ui
+[ - ] create home page ui
+[ - ] create about page ui
+[ - ] create error page ui
+[ ] fix all frontend ui error
+[ ] how to store data registration in frontend
+
+
+[ ] connect react with node express react
+[ ] React Js Core Error 
+[ ] implementing login functionality with jwt & store cookie
+[ ] user authentication in mern 
+[ ] check user login  about authentication
+[ ] get about us page data dynamically
+[ ] get contact us page data dynamically
+[ ] complete working contact form
+[ ] working dynamic home page
+[ ] how to implement logout
+[ ] toggle login logout
+[ ] share and run mern project
+
+
+[ ] hosting in heroku

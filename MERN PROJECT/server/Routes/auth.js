@@ -97,12 +97,12 @@ router.post("/login", async (req, res) => {
         httpOnly: true,
       });
       if (!passwordVerify) {
-        res.status(400).json({ error: "Invalid Credential pass" });
+        res.status(422).json({ error: "Invalid Credential" });
       } else {
         res.status(200).json({ message: "User Sign In successfully" });
       }
     } else {
-      res.status(404).json({ error: "Invalid Credential email" });
+      res.status(422).json({ error: "Invalid Credential" });
     }
   } catch (err) {
     console.log(err);
