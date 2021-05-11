@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import singupImg from "../images/signin.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, useHistory } from "react-router-dom";
 const Signup = () => {
+  const history = useHistory();
   const [user, setUser] = useState({
     name: "",
     email: "",
@@ -22,6 +23,41 @@ const Signup = () => {
       `name:${user.email} and ${user.password} and ${user.phone} and ${user.work} and ${user.name}`
     );
   };
+
+  let PostData = async (e) => {
+    e.preventDefault();
+    const { name, email, phone, work, password, cpassword } = user;
+
+    /* 
+    ! a common use of json is to exchange data to/from a web server. when sending data to a web server the data has to be string. convert to a javascript object into a string with JSON.strigify()
+
+    if both key and value are same then use object destructureing
+    
+    */
+    const res = await fetch("/register", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name,
+        email,
+        phone,
+        work,
+        password,
+        cpassword,
+      }),
+    });
+
+    const data = await res.json();
+    console.log(data.status);
+    if (res.status === 422 || !data) {
+      window.alert("Invalid Data");
+    } else {
+      console.log("Registration Successful");
+      alert("registration successfully");
+      // after registration success this will redirect to login page
+      history.push("/login");
+    }
+  };
   return (
     <>
       <section className="signup">
@@ -32,6 +68,7 @@ const Signup = () => {
               <form
                 className="register-form"
                 onSubmit={submitData}
+                method="POST"
                 id="register-form"
               >
                 <div className="form-group ">
@@ -130,6 +167,7 @@ const Signup = () => {
                     id="signup"
                     className="form-submit"
                     value="Register"
+                    onClick={PostData}
                   />
                 </div>
               </form>

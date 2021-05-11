@@ -13,10 +13,10 @@ import "./index.css";
 // import UseEffectCondition from "./useEffect/Condition_in_useEffect";
 // import CustomUseEffect from "./useEffect/CustomUseEffect";
 // import CleanUp from "./useEffect/CleanUp";
-// import HookApi from "./2. useEffect/Github Project/project1";
+import HookApi from "./2. useEffect/Github Project/project1";
 // import UseRef from "./3. useRef/App";
 // import UseReducerDemo from "./4. useReducer/App";
-import UseContextHook from "./5. UseContext/UseContextHook";
+// import UseContextHook from "./5. UseContext/UseContextHook";
 /*
  * 🔴 tutorial 1:- React Hooks - When & Why to use useState() Hook in React
  */
@@ -119,7 +119,7 @@ import UseContextHook from "./5. UseContext/UseContextHook";
  * 🔴 tutorial :- 14.React Hook Project 👉 Get Github Users Data using useEffect Hook with Fetch API in Hindi in 2021
  */
 
-// ReactDOM.render(<HookApi></HookApi>, document.getElementById("root"));
+ReactDOM.render(<HookApi></HookApi>, document.getElementById("root"));
 
 /*
  * 🔴 tutorial :- 15.🔴 #2- React Github User Project Code-Refactor and Adding Error Handling, Loading Functionality
@@ -152,10 +152,10 @@ import UseContextHook from "./5. UseContext/UseContextHook";
  * 🔴 tutorial :- 19.🔴 #21- What is Prop Drilling, Context API & useContext Hook in React in Hindi in 2021
  */
 
-ReactDOM.render(
-  <UseContextHook></UseContextHook>,
-  document.getElementById("root")
-);
+// ReactDOM.render(
+//   <UseContextHook></UseContextHook>,
+//   document.getElementById("root")
+// );
 
 /*
  * 🔴 tutorial :- 20.🔴 #22- Create Your Own Custom Hooks in React in Hindi

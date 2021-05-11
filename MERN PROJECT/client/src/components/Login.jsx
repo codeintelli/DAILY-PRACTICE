@@ -1,7 +1,47 @@
-import React from "react";
+import React, { useState } from "react";
 import Loginpic from "../images/login.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, useHistory } from "react-router-dom";
+
+import { UserContext } from "../App";
 const Login = () => {
+  const { state, dispatch } = React.useContext(UserContext);
+  const history = useHistory();
+  const [user, setuser] = useState({
+    email: "",
+    password: "",
+  });
+  let name, value;
+  const handleLoginInput = (e) => {
+    name = e.target.name;
+    value = e.target.value;
+    setuser({ ...user, [name]: value });
+  };
+
+  const InsertData = async (e) => {
+    e.preventDefault();
+    const { email, password } = user;
+    const res = await fetch("/login", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email,
+        password,
+      }),
+    });
+
+    const data = await res.json();
+    console.log(res.status);
+    if (res.status === 422 || !data) {
+      window.alert("Invalid Data");
+      history.push("/login");
+    } else {
+      dispatch({ type: "USER", payload: true });
+      console.log("Registration Successful");
+      alert("Login successfully");
+      // after registration success this will redirect to login page
+      history.push("/");
+    }
+  };
   return (
     <>
       <section className="sign-in">
@@ -18,7 +58,7 @@ const Login = () => {
 
             <div className="signin-form">
               <h2 className="form-title">Login</h2>
-              <form className="register-form" id="register-form">
+              <form method="POST" className="register-form" id="register-form">
                 <div className="form-group">
                   <label htmlFor="name">
                     <i className="zmdi zmdi-email material-icons-name"></i>
@@ -28,6 +68,8 @@ const Login = () => {
                     autoComplete="off"
                     name="email"
                     id="email"
+                    value={user.email}
+                    onChange={handleLoginInput}
                     placeholder="Enter Your Email Here"
                   />
                 </div>
@@ -41,6 +83,8 @@ const Login = () => {
                     autoComplete="off"
                     name="password"
                     id="password"
+                    value={user.password}
+                    onChange={handleLoginInput}
                     placeholder="Enter Your Password Here"
                   />
                 </div>
@@ -50,6 +94,7 @@ const Login = () => {
                     type="submit"
                     name="signin"
                     id="signin"
+                    onClick={InsertData}
                     className="form-submit"
                     value="Log In"
                   />

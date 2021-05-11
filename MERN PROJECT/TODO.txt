@@ -1,4 +1,4 @@
-$$ PART 1 
+TODO PART 1 
 [ + ] Prerequisite To Learn MERN Stack
     [ + ] MONGODB
     [ + ] EXPRESS
@@ -22,33 +22,38 @@ $$ PART 1
 [ + ] store jwt in user cookie
 
 
-$$ PART 2
+TODO PART 2
 [ + ] lets start frontend download react
 [ + ] creating reponsive navbar
 [ + ] open new page without reloading the page
 [ + ] add css in our mern project
-[ - ] create registration page ui
-[ - ] create login page ui
-[ - ] create contact page ui
-[ - ] create home page ui
-[ - ] create about page ui
-[ - ] create error page ui
-[ ] fix all frontend ui error
-[ ] how to store data registration in frontend
+[ + ] create registration page ui
+[ + ] create login page ui
+[ + ] create contact page ui
+[ + ] create home page ui
+[ + ] create about page ui
+[ + ] create error page ui
+[ + ] fix all frontend ui error
+[ + ] how to store data registration in frontend
 
 
-[ ] connect react with node express react
-[ ] React Js Core Error 
-[ ] implementing login functionality with jwt & store cookie
-[ ] user authentication in mern 
-[ ] check user login  about authentication
-[ ] get about us page data dynamically
-[ ] get contact us page data dynamically
-[ ] complete working contact form
-[ ] working dynamic home page
+
+
+TODO PART3
+[ + ] connect react with node express react
+[ + ] React Js Core Error 
+        ?it occur when we are running our client server on 3000 and our backend server will run on another server then this error occur so solve this problem we are using proxy first it find on its default port number if they can find that page then it goes to another port and check on that port that the page is present on that port or not if it find then complete operation otherwise it shows error or instead of that proxy we can also use the main path in fatch keyword its totally wrong because react tell that we cant send data to another page or on another port
+[ + ] implementing login functionality with jwt & store cookie
+[ + ] user authentication in mern 
+[ + ] check user login  about authentication
+[ + ] get about us page data dynamically (authentication and get user data)
+[ + ] get contact us page data dynamically (get and post data both)
+[ + ] complete working contact form ( post data)
+[ + ] working dynamic home page(only get data)
 [ ] how to implement logout
 [ ] toggle login logout
 [ ] share and run mern project
 
 
+TODO PART4 FINAL HOSTING
 [ ] hosting in heroku
