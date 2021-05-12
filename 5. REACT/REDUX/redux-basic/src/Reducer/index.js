@@ -1,9 +1,9 @@
 import changeNumber from "./updown";
-
+import calNumber from "./muldiv";
 import { combineReducers } from "redux";
 
-const rootReducer = combineReducers({
+const reducers = combineReducers({
   changeNumber,
+  calNumber,
 });
-
-rootReducer.
+export default reducers;
