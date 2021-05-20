@@ -63,7 +63,9 @@ dbSchema.methods.generateAuthToken = async function () {
 
 dbSchema.pre("save", async function (next) {
   if (this.isModified("password")) {
+    console.log(`the current password is ${this.password}`);
     this.password = await bcrypt.hash(this.password, 10);
+    console.log(`the current password is ${this.password}`);
     this.password = await bcrypt.hash(this.confirm_password, 10);
 
     // this.confirm_password = undefined;

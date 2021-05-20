@@ -17,12 +17,10 @@ const dbSchema = new mongoose.Schema({
   email: {
     type: String,
     required: true,
-    unique: true,
   },
   phone: {
     type: Number,
     required: true,
-    unique: true,
   },
   age: {
     type: Number,
@@ -39,6 +37,7 @@ const dbSchema = new mongoose.Schema({
 });
 
 dbSchema.pre("save", async function (next) {
+  console.log("shiva mahadev");
   if (this.isModified("password")) {
     console.log(`the current password is ${this.password}`);
     this.password = await bcrypt.hash(this.password, 10);
@@ -47,6 +46,11 @@ dbSchema.pre("save", async function (next) {
   }
   next();
 });
+
+// dbSchema.post("save", async function (next) {
+//   console.log("post method use");
+//   next();
+// });
 
 // creating collection
 const Registration = new mongoose.model("user-data", dbSchema);

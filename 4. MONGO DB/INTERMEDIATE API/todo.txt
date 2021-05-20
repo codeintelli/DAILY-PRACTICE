@@ -1,10 +1,75 @@
-[ - ] Register a user
-[ - ] Login a user
-[ - ] Who am I
-[ - ] Refresh the token
-[ - ] Logout the user
-[ - ] Add new product
-[ - ] Update a product
-[ - ] Get all products
-[ - ] Get single product
-[ - ] Delete a product
+[ + ] Register a user
+[ + ] Login a user
+[ + ] Who am I
+[ + ] Refresh the token
+[ + ] Logout the user
+[ + ] Add new product
+[ + ] Update a product
+[ + ] Get all products
+[ + ] Get single product
+[ + ] Delete a product
+
+
+PACKAGE 
+1. EXPRESS
+2. ESM :- FOR ES6 MODULE SYNTAX USE IN OUR NODE APPLICATION LIKE MODULE.EXPRORT  = EXPORT DEFAULT FUNNAME;
+3. NODEMON:- (DEV DEPENDENCY)
+4. DOTENV
+5. MULTER 
+6. BCRYPT
+7. JSONWEBTOKEN
+8. MONGOOSE
+9. JOI
+
+
+FOLDER STRUCTURE
+
+! 1. CONFIG
+WE CAN IMPORT ALL .ENV FILE IN CONFIG/INDEX.JS AND THEN EXPORT ALL AND USE IT INTO OUR PROJECT
+
+! 2. CONTROLLER
+this will be the logic of all api like register login and all and it will be called in routes 
+
+! 3. MIDDLEWARE
+
+
+! 4. MODEL
+
+
+! 5. ROUTES
+create all router of your api in this router folder and then use router into server.js 
+
+
+! 6. SERVICES
+
+
+! 7. UPLOADS
+
+
+! 8. VALIDATE
+
+
+! 9. SERVER.JS(MAIN FILE)
+
+
+
+
+todo: CHECKLIST OF VALIDATING REQUEST 
+
+[ ] validate the request
+[ ] authorize the request
+[ ] check if user is in the database already
+[ ] prepare model 
+[ ] store in database
+[ ] generate jwt token
+[ ] send response
+
+ERROR:-
+
+[ - ]Must call super constructor in derived class before accessing 'this' or returning from derived constructor
+WE CAN CALL PARENT CLASS CONSTRUCTER IN CustomErrorHandler extends Error in that class we can call super() 
+
+[ - ] data and hash arguments required
+{if we are not using await then this error occur}
+just put await otherwise it show full query
+ const user = await User.find({ email: req.body.email });

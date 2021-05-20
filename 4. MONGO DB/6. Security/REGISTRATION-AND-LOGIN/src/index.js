@@ -57,6 +57,7 @@ app.get("/registration", (req, res) => {
 // add user data into database
 app.post("/registration", async (req, res) => {
   try {
+    console.log("save method invoke");
     const password = req.body.password;
     const confirm_password = req.body.confirm_password;
     if (password === confirm_password) {
@@ -67,10 +68,12 @@ app.post("/registration", async (req, res) => {
         email: req.body.email,
         phone: req.body.phone,
         age: req.body.age,
-        password: password,
+        password: password, 
         confirm_password: confirm_password,
       });
+      console.log("1");
       const insertData = await RegisterUser.save();
+      console.log("insertData");
       res.status(200).render("success");
       // res.status(200).send("complete");
       console.log(insertData);
@@ -91,5 +94,5 @@ app.get("/success", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`database is successfully created http://localhost:${port}`);
+  console.log(`database is successfully created http://localhost:${port}  `);
 });
