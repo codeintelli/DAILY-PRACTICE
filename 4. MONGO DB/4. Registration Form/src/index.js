@@ -4,7 +4,7 @@ const path = require("path");
 const hbs = require("hbs");
 const Registration = require("./models/schemaAndModel");
 require("./db/conn");
-const port = process.env.PORT || 6464;
+const port = process.env.PORT || 64;
 
 const static_path = path.join(__dirname, "../public");
 const PartialPath = path.join(__dirname, "../templates/partials");
