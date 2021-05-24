@@ -1,7 +1,7 @@
 {
-  "name": "node-mailer",
+  "name": "dynamic-api",
   "version": "1.0.0",
-  "description": "send mail using node express ",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,9 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "googleapis": "^73.0.0",
+    "hbs": "^4.1.2",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.10",
-    "nodemailer": "^6.6.0"
+    "mysql": "^2.18.1"
   }
 }
