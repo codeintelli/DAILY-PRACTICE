@@ -1,15 +1,15 @@
 var nodemailer = require("nodemailer");
-var transport = nodemailer.createTransport({
-  host: "smtp.gmail.com",
-  port: 587,
-  secure: false,
-  requireTLS: true,
-  auth: {
-    user: "dk9904275160@gmail.com",
-    pass: "shiv@6464",
-  },
-});
-
+// var transport = nodemailer.createTransport({
+//   host: "smtp.gmail.com",
+//   port: 587,
+//   secure: false,
+//   requireTLS: true,
+//   auth: {
+//     user: "your email",
+//     pass: "your password",
+//   },
+// });
+// uncomment this function when you want to use
 var mailOptions = {
   from: '"Dushyant Khoda😎😎"<dk9904275160@gmail.com>',
   to: "aakashpatel7979@gmail.com",
