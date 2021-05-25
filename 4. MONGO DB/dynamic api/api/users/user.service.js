@@ -60,7 +60,7 @@ module.exports = {
   },
 
   findByIdAndUpdate: (data, callback) => {
-    pool.query(
+    Pool.query(
       `UPDATE registration SET firstname=?,lastname=?,gender=?,email=?,password=?,number=? WHERE id=?`,
       [
         data.firstname,
@@ -69,12 +69,13 @@ module.exports = {
         data.email,
         data.password,
         data.number,
+        data.id,
       ],
       (err, result, field) => {
         if (err) {
           callback(err);
         }
-        return callback(null, result[0]);
+        return callback(null, result);
       }
     );
   },
