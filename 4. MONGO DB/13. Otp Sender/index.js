@@ -9,10 +9,14 @@ app.get("/", (req, res) => {
 
 app.post("/sendMessage", async (req, res) => {
   try {
+    let finalMessage = `${req.body.message} + ${Math.floor(
+      Math.random() * 1999999
+    )}`;
+    console.log("final mesage " + finalMessage);
     console.log(req.body);
     const response = await fast2sms.sendMessage({
       authorization: `wRVgP0EIAtZjNy67oe43qhLazJKfxb2BY91C8OciunHGFvUXMDKGpPibhVMQe4u7HanErTWtc8AUgjo2`,
-      message: req.body.message,
+      message: finalMessage,
       numbers: [req.body.number],
     });
     console.log(response);
