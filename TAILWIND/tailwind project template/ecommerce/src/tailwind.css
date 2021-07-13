@@ -12,6 +12,12 @@
 .soft {
   @apply transition duration-500 ease-in-out;
 }
+
+.btn{
+ @apply p-24 text-green-200 hover:text-green-300 
+}
+
+
 .slider-dots {
   right: 2rem;
   top: 34%;

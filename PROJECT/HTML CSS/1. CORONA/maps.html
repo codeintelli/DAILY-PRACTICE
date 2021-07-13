@@ -4,17 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>India Corona Report</title>
+    <title>COVID-19</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- google font cdn -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
   <body class="analysis">
+    <header>
+      <a href="#" class="logo"
+        >C<span class="fas fa-virus spin"></span>VID<span>-19</span>
+      </a>
+
+      <div id="menu" class="fas fa-bars"></div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="index.html">protect</a></li>
+          <li><a href="index.html">symtoms</a></li>
+          <li><a href="index.html">prevent</a></li>
+          <li><a href="index.html">handwash</a></li>
+          <li><a href="index.html">spread</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="content" data-aos="fade-right" data-aos-duration="3000">
+        <span>C<span class="fas fa-virus spin"></span>VID-19</span>
+        <h3>Stay Home,Stay Safe</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
+          placeat at alias voluptatem facere ex distinctio eum dolor eaque
+          deleniti! Voluptatibus
+        </p>
+        <a href="#" class="btn">Protect Now</a>
+      </div>
+      <div class="image" data-aos="fade-left" data-aos-duration="3000">
+        <img src="img/maps.png" alt="home-image" />
+      </div>
+    </section>
+
     <div class="maps">
       <div class="india">India COVID-19 Statewise Case Report</div>
       <div class="state-name">...</div>
       <div class="container">
         <!-- covid 19 data  -->
         <div class="data">
-          <div class="active">
+          <div class="activecase">
             <div class="castActive">Active</div>
             <div class="castFigActive">...</div>
           </div>
@@ -60,8 +105,7 @@
                 bottomLatitude="6.751085"
               ></amcharts:ammap>
 
-              <!-- All areas are listed in the line below. You can use this list in your script. -->
-              <!--{id:"IN-AN"},{id:"IN-AP"},{id:"IN-AR"},{id:"IN-AS"},{id:"IN-BR"},{id:"IN-CH"},{id:"IN-CT"},{id:"IN-DD"},{id:"IN-DL"},{id:"IN-DN"},{id:"IN-GA"},{id:"IN-GJ"},{id:"IN-HP"},{id:"IN-HR"},{id:"IN-JH"},{id:"IN-JK"},{id:"IN-KA"},{id:"IN-KL"},{id:"IN-LD"},{id:"IN-MH"},{id:"IN-ML"},{id:"IN-MN"},{id:"IN-MP"},{id:"IN-MZ"},{id:"IN-NL"},{id:"IN-OR"},{id:"IN-PB"},{id:"IN-PY"},{id:"IN-RJ"},{id:"IN-SK"},{id:"IN-TG"},{id:"IN-TN"},{id:"IN-TR"},{id:"IN-UP"},{id:"IN-UT"},{id:"IN-WB"}-->
+            
             </defs>
             <g>
               <path
@@ -393,6 +437,60 @@
         </div>
       </div>
     </div>
+
+    <section class="footer" style="margin-top: 40px;">
+      <div
+        class="box-container"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
+        >
+        <div class="box">
+          <h3>About Us</h3>
+          <p>
+            Code-intelli is IT Company With Experienced Developer with Great and
+            we deliver
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>Location</h3>
+          <a href="maps.html">Gujarat</a>
+          <a href="#">Delhi</a>
+          <a href="#">Maharastra</a>
+          <a href="#">Uttarakhand</a>
+          <a href="#">Madhya Pradesh</a>
+        </div>
+
+        <div class="box">
+          <h3>Quick Links</h3>
+          <a href="#home">Home</a>
+          <a href="#protect">Protect</a>
+          <a href="#symtoms">Symtoms</a>
+          <a href="#prevent">Prevent</a>
+          <a href="table.html">Table Wise</a>
+          <a href="maps.html">World Map</a>
+        </div>
+
+        <div class="box">
+          <h3>Contact Info</h3>
+          <p><i class="fas fa-phone"></i>+91 7435868079</p>
+          <p><i class="fas fa-envelope"></i>codeintelli2021@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i>Gujarat,India</p>
+          <div class="share">
+            <a href="#" class="fab fa-youtube"></a>
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="credit">
+        Created By <a href="#">Code Intelli</a> All Right Reserved
+      </h1>
+    </section>
 
     <script>
       showMapData("Total");

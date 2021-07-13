@@ -4,15 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>COVID-19</title>
     <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
   <body onload="fetch()">
+    <header>
+      <a href="#" class="logo"
+        >C<span class="fas fa-virus spin"></span>VID<span>-19</span>
+      </a>
+
+      <div id="menu" class="fas fa-bars"></div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="index.html">protect</a></li>
+          <li><a href="index.html">symtoms</a></li>
+          <li><a href="index.html">prevent</a></li>
+          <li><a href="index.html">handwash</a></li>
+          <li><a href="index.html">spread</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="content" data-aos="fade-right" data-aos-duration="3000">
+        <span>C<span class="fas fa-virus spin"></span>VID-19</span>
+        <h3>Stay Home,Stay Safe</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
+          placeat at alias voluptatem facere ex distinctio eum dolor eaque
+          deleniti! Voluptatibus
+        </p>
+        <a href="#" class="btn">Protect Now</a>
+      </div>
+      <div class="image" data-aos="fade-left" data-aos-duration="3000">
+        <img src="img/table.png" alt="home-image" />
+      </div>
+    </section>
+
     <div class="text-align-center text-css">Covid-19 World Updates</div>
     <div class="table-content">
       <table class="text-align-center center" id="customers">
         <tr>
-          <th scope="" style="text-align: center">Country List</th>
+          <th scope="" style="text-align: center;">Country List</th>
           <th scope="">Total Confirmed</th>
           <th scope="">Total Recovered</th>
           <th scope="">Total Death</th>
@@ -31,6 +75,61 @@
       </tr> -->
       </table>
     </div>
+
+    <section class="footer" style="margin-top: 40px;">
+      <div
+        class="box-container"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
+        >
+        <div class="box">
+          <h3>About Us</h3>
+          <p>
+            Code-intelli is IT Company With Experienced Developer with Great and
+            we deliver
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>Location</h3>
+          <a href="maps.html">Gujarat</a>
+          <a href="#">Delhi</a>
+          <a href="#">Maharastra</a>
+          <a href="#">Uttarakhand</a>
+          <a href="#">Madhya Pradesh</a>
+        </div>
+
+        <div class="box">
+          <h3>Quick Links</h3>
+          <a href="#home">Home</a>
+          <a href="#protect">Protect</a>
+          <a href="#symtoms">Symtoms</a>
+          <a href="#prevent">Prevent</a>
+          <a href="table.html">Table Wise</a>
+          <a href="maps.html">World Map</a>
+        </div>
+
+        <div class="box">
+          <h3>Contact Info</h3>
+          <p><i class="fas fa-phone"></i>+91 7435868079</p>
+          <p><i class="fas fa-envelope"></i>codeintelli2021@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i>Gujarat,India</p>
+          <div class="share">
+            <a href="#" class="fab fa-youtube"></a>
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="credit">
+        Created By <a href="#">Code Intelli</a> All Right Reserved
+      </h1>
+    </section>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
       function fetch() {

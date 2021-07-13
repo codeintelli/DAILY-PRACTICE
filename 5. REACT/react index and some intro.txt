@@ -1,7 +1,7 @@
-tut1:intro to react
-tut2:prerequisite
-tut3:install react & some extenstion like babel
-tut4: hello world with two different way and folder structure
+* 🔴 tut1:intro to react
+* 🔴 tut2:prerequisite
+* 🔴 tut3:install react & some extenstion like babel
+* 🔴 tut4: hello world with two different way and folder structure
 
 
 1. remove app and strict in index.js
@@ -10,55 +10,55 @@ tut4: hello world with two different way and folder structure
 
 folder structure ,then use of babel ,then remove require and use import export  
 
-tut5: jsx
+* 🔴 tut5: jsx
 
 render text in 3 ways 
 
 1. traditional react
 2. babel
 3. normal javascript
-tut6: render multiple element inside dom
+* 🔴 tut6: render multiple element inside dom
 
 
 USING ARRY
 
-tut7: react fragment
+* 🔴 tut7: react fragment
 REACT.FRAGMENTS
 
 
-tut8: CHALLANGE 1 top5 netflix series render
+* 🔴 tut8: CHALLANGE 1 top5 netflix series render
 COMPLETE
 
-tut9: jsx expression
+* 🔴 tut9: jsx expression
 
 
-tut10: es6 template literal in jsx
+* 🔴 tut10: es6 template literal in jsx
 
 
-tut 11: proj 2 display current date and time 
+* 🔴 tut 11: proj 2 display current date and time 
 done
 
-tut 13: html vs jsx 
+* 🔴 tut 13: html vs jsx 
 
-html attribute and jsx attribute
+* 🔴 html attribute and jsx attribute
 
-* tutorial 14:- css styling and import styling in css
+* 🔴  tutorial 14:- css styling and import styling in css
 
-* tutorial 15:-using google font in css and class vs className
+* 🔴  tutorial 15:-using google font in css and class vs className
 
-* tutorial 16:-internal css and inline css in react
+* 🔴  tutorial 16:-internal css and inline css in react
 
-* tutorial 17:-Mini project create simple greeting website
+* 🔴  tutorial 17:-Mini project create simple greeting website
 
-* tutorial 18:-React Components 
+* 🔴  tutorial 18:-React Components 
 
-* tutorial 19:-Rewrite our Project in React Components
+* 🔴  tutorial 19:-Rewrite our Project in React Components
 
-* tutorial 20:-ES6 Import Export Module in React
+* 🔴  tutorial 20:-ES6 Import Export Module in React
 
-* tutorial 21:-Create Simple Calculator App in React
+* 🔴  tutorial 21:-Create Simple Calculator App in React
 
-* tutorial 22:-Props In react Js
+* 🔴  tutorial 22:-Props In react Js
 
 
 * 🔴 tutorial 23:-Array In React Js 
