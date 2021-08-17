@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 // const url = `mongodb://127.0.0.1:27017/itvmh`;
 // const DB = process.env.URL;
-const DB = `mongodb+srv://shiva_2205:shiva@itvmhcluster.66siq.mongodb.net/itvmh?retryWrites=true&w=majority`;
+const DB = `mongodb://127.0.0.1:27017/portfolio`;
 console.log(DB);
 mongoose
   .connect(DB, {

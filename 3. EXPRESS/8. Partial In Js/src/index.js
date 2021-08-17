@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const hbs = require("hbs");
-const port = process.env.PORT || 6464;
+const port = process.env.PORT || 9000;
 
 // for dynamic data we must use template engine and express provides us ejs,pug,handlebars
 const absolutePath = path.join(__dirname, "../public");

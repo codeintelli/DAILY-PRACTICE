@@ -1,7 +1,7 @@
 const dotenv = require("dotenv");
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 64;
+const port = process.env.PORT || 120;
 const path = require("path");
 const hbs = require("hbs");
 const bcrypt = require("bcryptjs");

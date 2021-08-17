@@ -3,7 +3,7 @@ const chalk = require("chalk");
 const app = express();
 const path = require("path");
 const hbs = require("hbs");
-const port = process.env.PORT || 6464;
+const port = process.env.PORT || 5000;
 
 // public static path
 const absolutePath = path.join(__dirname, "../public");
