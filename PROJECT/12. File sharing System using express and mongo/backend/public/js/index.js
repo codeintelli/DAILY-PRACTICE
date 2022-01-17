@@ -88,9 +88,9 @@ const uploadFile = () => {
 };
 
 const updateProgress = (e) => {
-  const precent = Math.round(e.loaded / e.total) * 100;
-  bgProgress.style.width = `${precent}%`;
-  percentDiv.innerText = precent;
+  const percent = Math.round(e.loaded / e.total) * 100;
+  bgProgress.style.width = `${percent}%`;
+  percentDiv.innerText = percent;
   ProgressBar.style.transform = `scale(${percent / 100})`;
 };
 
@@ -106,7 +106,7 @@ copyBtn.addEventListener("click", () => {
   fileURL.select();
   document.execCommand("copy");
 
-  showToast("success", "Link Copyed To Your Clipboard");
+  showToast("success", "Link Copy To Your Clipboard");
 });
 
 emailForm.addEventListener("submit", (e) => {

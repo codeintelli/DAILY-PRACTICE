@@ -8,6 +8,9 @@ const cors = require("cors");
 const port = process.env.PORT || 6464;
 const routes = require("./Routes/auth");
 
+
+
+// app.use('/',require('./Routes/auth'))
 /* 
 ?middleware function are function that have access to the request object(req,res and next) the next function is a function in the express router which when invoked executes the middleware succeeding the current middleware
 */

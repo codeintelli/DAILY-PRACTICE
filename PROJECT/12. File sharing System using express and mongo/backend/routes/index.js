@@ -22,6 +22,7 @@ let upload = multer({
 router.post("/", (req, res) => {
   //store file in upload folder
   upload(req, res, async (err) => {
+    console.log(req.file);
     //validate request
     if (!req.file) {
       return res.json({ error: "all fields are require" });
@@ -46,6 +47,7 @@ router.post("/", (req, res) => {
 });
 
 router.post("/send", async (req, res) => {
+  console.log(req.body);
   const { uuid, emailTo, emailFrom, expiresIn } = req.body;
   if (!uuid || !emailTo || !emailFrom) {
     return res
@@ -55,9 +57,9 @@ router.post("/send", async (req, res) => {
   // Get data from db
   try {
     const file = await File.findOne({ uuid: uuid });
-    if (file.sender) {
-      return res.status(422).send({ error: "Email already sent once." });
-    }
+    // if (file.sender) {
+    //   return res.status(422).send({ error: "Email already sent once." });
+    // }
     file.sender = emailFrom;
     file.receiver = emailTo;
     const response = await file.save();

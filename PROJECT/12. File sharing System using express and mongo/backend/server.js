@@ -4,6 +4,8 @@ const PORT = process.env.PORT || 6464;
 const connectDB = require("./config/db");
 const routes = require("./routes/index");
 const path = require("path");
+const bodyParser = require("body-parser");
+// console.log(process.env.PORT);
 app.use(express.json());
 let static_path = path.join(__dirname, "./public");
 // console.log(static_path);
